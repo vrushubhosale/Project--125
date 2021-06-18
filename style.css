@@ -1,0 +1,39 @@
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.note{
+    font-size: 15px;
+    color: black;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: honeydew;
+    background-color: indigo;
+    line-height: 3;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+canvas{
+    border: 10px solid wheat;
+    box-shadow: 5px 5px gray;
+    border-radius: 20px;
+    animation-name: changer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes  changer{
+    from{ border: 10px solid red;}
+    to{ border: 10px solid yellowgreen}
+}
+
+video{
+    border: 5px, 5px, 5px, royalblue;
+}
